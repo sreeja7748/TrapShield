@@ -277,3 +277,103 @@ This makes the detection process auditable and explainable.
 
 ---
 
+## 🌐 API
+The backend exposes two main endpoints.
+
+POST /api/analyze
+
+Analyzes a conversation.
+### Request
+```json
+{
+  "messages": [
+    {
+      "sender": "Jordan",
+      "text": "Don't tell your parents we talk."
+    },
+    {
+      "sender": "You",
+      "text": "Why?"
+    }
+  ]
+}
+```
+### Response
+The API returns information including:
+```json
+{
+  "messages": [],
+  "flaggedMessages": [],
+  "totalScore": 0,
+  "overallRisk": "low",
+  "trend": "steady",
+  "categoryTally": {},
+  "messageCount": 2,
+  "guidance": []
+}
+```
+GET /api/health
+
+Basic backend health check.
+
+### Response
+```json
+{
+  "ok": true
+}
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have installed:
+
+- Node.js
+- npm
+
+Check your versions:
+```bash
+node --version
+npm --version
+```
+
+## 1. Clone the Repository
+```bash
+git clone <YOUR_REPOSITORY_URL>
+cd TrapShield
+```
+
+## 2. Start the Backend
+Open a terminal:
+```bash
+cd backend
+npm install
+npm run dev
+```
+The backend runs on:
+```text
+http://localhost:4000
+```
+You can verify it with:
+```text
+cd frontend
+npm install
+npm run dev
+```
+Vite will provide a local development URL, normally:
+```text
+http://localhost:5173
+```
+
+### Development note: The current frontend calls /api/analyze using a relative URL. If the frontend and backend are running on separate development ports, configure a Vite proxy or otherwise route /api requests to the backend at localhost:4000.
+
+---
+
+
+
+
+
+
+
