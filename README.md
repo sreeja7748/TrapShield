@@ -276,3 +276,4 @@ When a pattern matches, TrapShield records:
 This makes the detection process auditable and explainable.
 
 ---
+
