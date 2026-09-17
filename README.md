@@ -438,3 +438,22 @@ The application can analyze a conversation without requiring a persistent user p
 - The detection engine only identifies patterns covered by its current rules.
 - Users should consider the broader context and seek help from a trusted adult or appropriate support service when something feels unsafe.
 
+---
+
+## 🔮 Future Improvements
+Potential future development includes:
+
+ - Larger and more diverse pattern library
+ - Context-aware detection
+ - Multilingual conversation analysis
+ - Detection of obfuscated/slang language
+ - Platform-specific conversation import
+ - Screenshot/OCR analysis
+ - Improved contextual risk scoring
+ - False-positive feedback mechanism
+ - Anonymous analytics for improving detection rules
+ - Browser extension integration
+ - Local/offline analysis
+ - More detailed safety-resource integration
+
+---
