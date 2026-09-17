@@ -202,7 +202,6 @@ Later conversation
 
 ## 🏗️ Project Architecture
 ```
-
 TrapShield/
 │
 ├── backend/
@@ -226,10 +225,31 @@ TrapShield/
         │
         └── assets/
             └── ...
-
 ```
 ---
 
+## ⚙️ Technology Stack
 
+### Frontend
 
+- React 19
+- Vite
+- Tailwind CSS
+- Recharts
+- JavaScript / JSX
+- HTML / CSS
+
+### Backend
+
+- Node.js
+- Express 5
+- CORS
+- JavaScript ES Modules
+
+### Detection Engine
+
+- Custom rule-based detection engine
+- Regular-expression pattern matching
+- Weighted risk scoring
+- Conversation trend analysis
 
