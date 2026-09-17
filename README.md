@@ -457,3 +457,18 @@ Potential future development includes:
  - More detailed safety-resource integration
 
 ---
+
+## 📌 Current LimitationsTrapShield's current detection engine is rule-based.
+
+Therefore:
+
+- It can miss manipulation that is expressed using language outside its predefined patterns.
+- A phrase can have different meanings depending on context.
+- Detection does not establish malicious intent.
+- The current system does not perform semantic understanding like a large language model.
+- The quality of detection depends on the patterns defined in the detection engine.
+- Long conversations can produce higher cumulative scores, although the overall risk calculation includes normalization.
+
+These limitations are important when interpreting the result.
+
+---
