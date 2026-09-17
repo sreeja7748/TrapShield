@@ -431,5 +431,10 @@ The application can analyze a conversation without requiring a persistent user p
 
 ---
 
-
+## 🛡️ Safety & Privacy
+- TrapShield is intended as a support and awareness tool, not a replacement for human judgment, platform moderation, law enforcement, or professional support.
+- A risk result does not prove that a person is a groomer, scammer, or criminal.
+- Similarly, a conversation receiving no detected signals does not guarantee that it is safe.
+- The detection engine only identifies patterns covered by its current rules.
+- Users should consider the broader context and seek help from a trusted adult or appropriate support service when something feels unsafe.
 
