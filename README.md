@@ -253,3 +253,26 @@ TrapShield/
 - Weighted risk scoring
 - Conversation trend analysis
 
+---
+
+## 🔬 Detection Engine
+
+The core of TrapShield is detectionEngine.js.
+The engine contains a collection of categories, each with:
+```
+Category
+    │
+    ├── Label
+    ├── Severity Weight
+    ├── Explanation
+    └── Detection Patterns
+```
+When a pattern matches, TrapShield records:
+
+- Category
+- Explanation
+- Severity weight
+- Exact matching snippet
+This makes the detection process auditable and explainable.
+
+---
