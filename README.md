@@ -472,3 +472,21 @@ Therefore:
 These limitations are important when interpreting the result.
 
 ---
+
+## 💡 Project Objective
+TrapShield aims to make potentially harmful online conversations easier to recognize by turning subtle behavioral patterns into visible, explainable signals.
+
+Rather than focusing exclusively on individual keywords, the project emphasizes the journey of manipulation:
+```
+Trust Building
+      ↓
+Boundary Testing
+      ↓
+Isolation / Secrecy
+      ↓
+Escalating Requests
+      ↓
+Pressure
+      ↓
+Coercion / Threats
+```
