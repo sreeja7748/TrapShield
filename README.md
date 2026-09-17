@@ -1,9 +1,14 @@
-# TrapShield
+# 🛡️ TrapShield
  
 **Don't wait until it's too late — read the shape of a conversation, not just one message.**
- 
-TrapShield is an early-warning tool for grooming, sextortion, romance-scam, and coercive-manipulation patterns in online conversations. Instead of flagging a single bad message, it analyzes how risk **escalates across a whole conversation** — the *Manipulation Journey* — and explains exactly why each message was flagged, with real safety-organization resources attached to every pattern it detects.
- 
-Built as a college project addressing the gap in most safety tools: they catch explicit content after the fact, but don't explain how ordinary-seeming conversations gradually turn manipulative.
- 
+ ### Conversation-Based Grooming, Manipulation & Online Scam Risk Detector
+
+TrapShield is a privacy-focused web application that analyzes text conversations for patterns associated with **online grooming, manipulation, coercion, sextortion, financial scams, and other unsafe behaviors**.
+
+Instead of judging a conversation from a single suspicious message, TrapShield looks at the **progression of the conversation** and identifies how different manipulation tactics appear and escalate over time.
+
+> **TrapShield doesn't just ask "Is this message suspicious?" — it asks "What pattern is this conversation forming?"**
+
 ---
+
+
