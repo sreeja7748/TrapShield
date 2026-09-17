@@ -325,6 +325,28 @@ Basic backend health check.
 
 ---
 
+## 📸 Project Screenshots
+
+### Landing Page
+<img width="852" height="914" alt="Trap1" src="https://github.com/user-attachments/assets/6630cfd0-8269-4703-9e66-515df2c0cf7b" />
+
+### Analysis Report
+<img width="879" height="999" alt="Trap2" src="https://github.com/user-attachments/assets/3560936d-a9d3-4fb7-928e-5d72e90b07cf" />
+<img width="877" height="1017" alt="Trap3" src="https://github.com/user-attachments/assets/63e00ed6-f86f-42a7-ab86-aa6b2045274b" />
+<img width="876" height="1007" alt="Trap4" src="https://github.com/user-attachments/assets/c67abdf4-e76b-420f-80bc-8db495fed3f4" />
+ 
+### History Tab
+<img width="1388" height="959" alt="Trap5" src="https://github.com/user-attachments/assets/93a67c0b-e041-4a27-b28f-9781b9716179" />
+
+### The Guide
+<img width="857" height="512" alt="Trap6" src="https://github.com/user-attachments/assets/0feea25d-fe52-4de2-9080-f584382e0a7f" />
+
+### Downloaded Analysis Report PDF
+<img width="985" height="955" alt="Trap7" src="https://github.com/user-attachments/assets/e395ffe7-c366-4713-91f6-b42be46ab9cd" />
+<img width="983" height="964" alt="Trap8" src="https://github.com/user-attachments/assets/d80059a4-8c84-491a-a37e-d60adfb7a35c" />
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
