@@ -108,3 +108,96 @@ Conversation-Level Analysis
        │
        ▼
 Interactive Dashboard
+```
+---
+
+1. Conversation Input
+
+The user enters a conversation one message per line:
+
+Jordan: hey! I saw your comment
+You: oh thank you!
+Jordan: you're really mature for your age
+Jordan: what's your snapchat?
+Jordan: don't tell your parents we talk
+
+TrapShield converts the conversation into structured messages containing:
+
+sender
+text
+message index
+2. Pattern Detection
+
+The backend analyzes every message against predefined behavioral patterns.
+
+For example:
+
+"don't tell your parents we talk"
+
+can trigger:
+
+Isolation from support network
+
+while:
+
+"send me a pic right now"
+
+can trigger:
+
+Request for photos / sensitive media
+Urgency / pressure tactics
+3. Explainable Scoring
+
+Each category has a severity weight.
+
+Pattern	Weight
+Love bombing	2
+Secrecy pressure	3
+Off-platform movement	3
+Urgency / pressure	3
+Isolation	4
+Financial request	4
+Photo request	5
+Offline meeting	5
+Threat / coercion	6
+
+A message can trigger multiple categories, but the same category is only counted once for that message.
+
+4. Risk Classification
+
+Individual message scores are mapped to risk levels:
+
+Score	Risk Level
+0	No signal
+1–2	Low
+3–6	Elevated
+7–11	High
+12+	Critical
+
+The application also calculates an overall conversation-level risk using a normalized combination of the conversation's average message score and accumulated score.
+
+5. Conversation Trend
+
+For conversations containing enough messages, TrapShield compares the beginning and end of the conversation.
+
+This helps identify whether suspicious behavior is:
+
+Early conversation
+       ↓
+Initial interaction
+       ↓
+Trust building
+       ↓
+Boundary pushing
+       ↓
+Pressure / requests
+       ↓
+Threats or coercion
+       ↓
+Later conversation
+
+
+
+
+
+
