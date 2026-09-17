@@ -178,7 +178,7 @@ Score	Risk Level
 
 The application also calculates an overall conversation-level risk using a normalized combination of the conversation's average message score and accumulated score.
 
-##  5. Conversation Trend
+## 5. Conversation Trend
 
 For conversations containing enough messages, TrapShield compares the beginning and end of the conversation.
 
@@ -198,7 +198,37 @@ Threats or coercion
        ↓
 Later conversation
 
+---
 
+## 🏗️ Project Architecture
+```
+
+TrapShield/
+│
+├── backend/
+│   ├── server.js
+│   ├── detectionEngine.js
+│   ├── package.json
+│   └── package-lock.json
+│
+└── frontend/
+    ├── index.html
+    ├── package.json
+    ├── vite.config.js
+    │
+    └── src/
+        ├── App.jsx
+        ├── App.css
+        ├── index.css
+        │
+        ├── components/
+        │   └── RiskTimeline.jsx
+        │
+        └── assets/
+            └── ...
+
+```
+---
 
 
 
