@@ -404,6 +404,32 @@ The interface then presents the detected patterns, risk level, conversation tren
 
 ---
 
+## 🎯 Why Rule-Based Detection?
+TrapShield intentionally uses an explainable rule-based engine instead of an opaque machine-learning model.
+
+This provides several advantages:
+
+### Explainability
+
+Every detection can be connected to a specific phrase and category.
+
+### Transparency
+
+Users can understand why a message was flagged.
+
+### Auditability
+
+Detection rules can be inspected and updated directly.
+
+### No Training Dataset Required
+
+The current system does not require a machine-learning training dataset to perform its analysis.
+
+### Privacy
+
+The application can analyze a conversation without requiring a persistent user profile or stored conversation history.
+
+---
 
 
 
