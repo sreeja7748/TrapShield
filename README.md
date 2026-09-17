@@ -111,7 +111,7 @@ Interactive Dashboard
 ```
 ---
 
-1. Conversation Input
+## 1. Conversation Input
 
 The user enters a conversation one message per line:
 
@@ -126,7 +126,8 @@ TrapShield converts the conversation into structured messages containing:
 sender
 text
 message index
-2. Pattern Detection
+
+## 2. Pattern Detection
 
 The backend analyzes every message against predefined behavioral patterns.
 
@@ -146,7 +147,8 @@ can trigger:
 
 Request for photos / sensitive media
 Urgency / pressure tactics
-3. Explainable Scoring
+
+## 3. Explainable Scoring
 
 Each category has a severity weight.
 
@@ -163,7 +165,7 @@ Threat / coercion	6
 
 A message can trigger multiple categories, but the same category is only counted once for that message.
 
-4. Risk Classification
+## 4. Risk Classification
 
 Individual message scores are mapped to risk levels:
 
@@ -176,7 +178,7 @@ Score	Risk Level
 
 The application also calculates an overall conversation-level risk using a normalized combination of the conversation's average message score and accumulated score.
 
-5. Conversation Trend
+##  5. Conversation Trend
 
 For conversations containing enough messages, TrapShield compares the beginning and end of the conversation.
 
