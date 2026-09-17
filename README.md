@@ -490,3 +490,18 @@ Pressure
       ↓
 Coercion / Threats
 ```
+The goal is to help users recognize warning signs before a situation becomes more serious.
+
+---
+
+## 👥 Intended Users
+TrapShield can be useful as an awareness and educational prototype for:
+
+- Teenagers and young internet users
+- Parents and guardians
+- Educators
+- Online safety organizations
+- Cybersecurity awareness programs
+- Digital-safety researchers
+
+---
