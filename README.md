@@ -367,12 +367,42 @@ Vite will provide a local development URL, normally:
 http://localhost:5173
 ```
 
-### Development note: The current frontend calls /api/analyze using a relative URL. If the frontend and backend are running on separate development ports, configure a Vite proxy or otherwise route /api requests to the backend at localhost:4000.
+Development note: The current frontend calls /api/analyze using a relative URL. If the frontend and backend are running on separate development ports, configure a Vite proxy or otherwise route /api requests to the backend at localhost:4000.
 
 ---
 
+## 🧪 Example
 
+You can use the built-in sample conversation from the interface.
 
+A simplified example:
+```text
+Jordan: you're way more mature than most people your age
+Jordan: nobody gets me like you do
+Jordan: what's your snapchat?
+Jordan: don't tell your parents we talk
+Jordan: send me a pic right now
+Jordan: why aren't you answering?
+Jordan: if you really liked me you'd send it
+Jordan: everyone will see it if you don't
+```
+TrapShield can identify a progression involving:
+```text
+Love bombing
+      ↓
+Off-platform movement
+      ↓
+Isolation
+      ↓
+Photo request
+      ↓
+Urgency / pressure
+      ↓
+Threat / coercion
+```
+The interface then presents the detected patterns, risk level, conversation trend, and safety guidance.
+
+---
 
 
 
