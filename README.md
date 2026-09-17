@@ -507,9 +507,15 @@ TrapShield can be useful as an awareness and educational prototype for:
 ---
 
 ## 📄 Disclaimer
-TrapShield is an experimental online-safety project.
+- TrapShield is an experimental online-safety project.
 
-Its results should be treated as risk indicators, not definitive conclusions. The system does not determine whether a person is guilty of wrongdoing and should not be used as the sole basis for legal, disciplinary, or safety-critical decisions.
+- Its results should be treated as risk indicators, not definitive conclusions. The system does not determine whether a person is guilty of wrongdoing and should not be used as the sole basis for legal, disciplinary, or safety-critical decisions.
 
-If someone is experiencing threats, blackmail, sexual exploitation, or another immediate safety concern, they should seek help from a trusted adult or appropriate local authorities/support services.
+- If someone is experiencing threats, blackmail, sexual exploitation, or another immediate safety concern, they should seek help from a trusted adult or appropriate local authorities/support services.
 
+---
+
+## ⭐ Project Vision
+Recognize the pattern. Understand the risk. Take action before it escalates.
+
+## TrapShield — See the trap before it closes.
